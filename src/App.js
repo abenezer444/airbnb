@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import Data from './components/data.js'
+import About from './components/About';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <div className='contacts'>
         {cards}
       </div>
+      <About />
       
     </div>
   );
